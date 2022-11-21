@@ -1,0 +1,69 @@
+.teste {
+  background-color: rgb(241, 210, 255);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+p {
+  margin: 0;
+}
+
+.form {
+  width: 50rem;
+  margin-right: 1%;
+  .input {
+    border-radius: 16px;
+    border: none;
+    background-color: #695acd60;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+button {
+  border-radius: 16px;
+  padding: 8px;
+  border: none;
+  transition: 0.2s;
+  margin: 3px;
+}
+
+button:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.button {
+  background-color: #695acd60;
+}
+.button:hover {
+  background-color: #695acdbd;
+}
+.add {
+  margin: -3px;
+}
+
+.do {
+  background-color: #4169e1;
+}
+.doing {
+  background-color: #3a5eccc5;
+}
+.done {
+  background-color: #6682d6c5;
+}
+
+.list {
+  background-color: #695acd60;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  font-size: 15px;
+
+  p {
+    margin-left: 10px;
+  }
+}
