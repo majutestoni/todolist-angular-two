@@ -121,6 +121,12 @@
               "devServerTarget": "todo-dois:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref":"/todolist-angular-two/"
+          }
         }
       }
     }},
